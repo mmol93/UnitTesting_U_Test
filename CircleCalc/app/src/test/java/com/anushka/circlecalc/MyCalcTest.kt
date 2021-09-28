@@ -13,7 +13,7 @@ class MyCalcTest{
         myCalc = MyCalc()
     }
 
-    // 원의 면적 구하기
+    // 원의 면적 구하기 테스트
     @Test
     fun calculateArea_radiusGiven_returnsCorrectResult() {
         val result = myCalc.calculateArea(2.1)
